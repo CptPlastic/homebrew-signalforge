@@ -1,29 +1,29 @@
 class Signalforge < Formula
   desc "SignalForge CLI recorder for SignalForge Hub"
   homepage "https://signalforge.org"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.6/signalforge-darwin-arm64.tar.gz"
-      sha256 "f553cd4c5c0c569e1ec4b558f06b6202aa10098cf74ca9a5be6d1d980fbc9e16"
+      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.7/signalforge-darwin-arm64.tar.gz"
+      sha256 "8165fe2affbdc8306f1e0668657c955beae85a1ee686daab6158e136e184948f"
     end
 
     on_intel do
-      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.6/signalforge-darwin-amd64.tar.gz"
-      sha256 "2d8d0798d7a4258d7f858b9ecd021e4a61f84237dd016a2ef03b4fb0a0176380"
+      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.7/signalforge-darwin-amd64.tar.gz"
+      sha256 "be92e078bb942668ebb9573b488d0bc9c91ce716c9151ff26fb642a2bac43b48"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.6/signalforge-linux-arm64.tar.gz"
-      sha256 "26aacecbdfbcc8a154055630b7806c71d7caa88b6c2e21fa019a685672c990c4"
+      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.7/signalforge-linux-arm64.tar.gz"
+      sha256 "fb9d849e3366cc3715607cae8d99e428485769a824222c6fa716a17f95aa4cca"
     end
 
     on_intel do
-      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.6/signalforge-linux-amd64.tar.gz"
-      sha256 "c7111bdffec54cf87b9ba4f4b49e241d1dfab360a8937bd68363640c7b9a82e7"
+      url "https://github.com/CptPlastic/signalforge.org/releases/download/signalforge-cli-v0.1.7/signalforge-linux-amd64.tar.gz"
+      sha256 "8c6f0fcd6bcd278690ddf458203d21282e616adc45770d8f1839b5732554be05"
     end
   end
 
